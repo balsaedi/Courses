@@ -3,3 +3,13 @@ channels:
 dependencies:
   - r-base=3.6
   - r-tidyverse
+
+
+name: jupyter_contrib_nbextensions
+type: sphinx
+python:
+    version: 3
+    setup_py_install: true
+formats:
+    - none
+requirements_file: docs/requirements.txt
